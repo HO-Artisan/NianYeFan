@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "nianyefan",
+  "version": "${version}",
+  "name": "NianYeFan",
+  "description": "",
+  "authors": [
+    "Chemiofitor"
+  ],
+  "contact": {
+    "repo": "https://github.com/chemiofitor/NianYeFan"
+  },
+  "license": "MIT",
+  "icon": "assets/nianyefan/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ho.artisan.nianyefan.NianYeFan"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
